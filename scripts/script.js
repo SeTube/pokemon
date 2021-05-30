@@ -30598,12 +30598,12 @@ class Gym {
 gymList['Pewter City'] = new Gym('Brock', 'Pewter City', [
     new GymPokemon('Geodude', 770, 10),
     new GymPokemon('Onix', 1554, 12),
-], BadgeEnums.Boulder, 250, 'I took you for granted. As proof of your victory, here\'s the Boulder Badge!', [new RouteKillRequirement(10, GameConstants.Region.kanto, 2)]);
+], BadgeEnums.Boulder, 250, '我认为你是理所当然的。为了证明你的胜利，这是你的灰色徽章。', [new RouteKillRequirement(10, GameConstants.Region.kanto, 2)]);
 gymList['Cerulean City'] = new Gym('Misty', 'Cerulean City', [
     new GymPokemon('Staryu', 4000, 18),
     new GymPokemon('Starmie', 6800, 21),
-], BadgeEnums.Cascade, 500, 'I can\'t believe I lost! All right! You can have the Cascade Badge to show you beat me!', [new RouteKillRequirement(10, GameConstants.Region.kanto, 4)]);
-gymList['Vermilion City'] = new Gym('Lt. Surge', 'Vermilion City', [new GymPokemon('Raichu', 37000, 28)], BadgeEnums.Thunder, 1000, 'Whoa! You\'re the real deal, kid! Fine then, take the Thunder Badge!', [
+], BadgeEnums.Cascade, 500, '我简直不敢相信我输了！好的！你可以拥有蓝色徽章来证明你打败了我！', [new RouteKillRequirement(10, GameConstants.Region.kanto, 4)]);
+gymList['Vermilion City'] = new Gym('Lt. Surge', 'Vermilion City', [new GymPokemon('Raichu', 37000, 28)], BadgeEnums.Thunder, 1000, '哇！ 你是真正的训练师，孩子！ 那好，拿走橙色徽章吧！', [
     new RouteKillRequirement(10, GameConstants.Region.kanto, 6),
     new GymBadgeRequirement(BadgeEnums.Cascade),
 ]);
@@ -30611,18 +30611,18 @@ gymList['Celadon City'] = new Gym('Erika', 'Celadon City', [
     new GymPokemon('Tangela', 38810, 30),
     new GymPokemon('Weepinbell', 30340, 32),
     new GymPokemon('Gloom', 36400, 32),
-], BadgeEnums.Rainbow, 1500, 'Oh! I concede defeat. You are remarkably strong. I must confer you the Rainbow Badge.', [new RouteKillRequirement(10, GameConstants.Region.kanto, 7)]);
+], BadgeEnums.Rainbow, 1500, '我认输。 你非常强大。 我必须授予你彩虹徽章。', [new RouteKillRequirement(10, GameConstants.Region.kanto, 7)]);
 gymList['Saffron City'] = new Gym('Sabrina', 'Saffron City', [
     new GymPokemon('Abra', 23040, 50),
     new GymPokemon('Kadabra', 25600, 50),
     new GymPokemon('Alakazam', 28400, 50),
-], BadgeEnums.Marsh, 2500, 'I\'m shocked! But a loss is a loss. I admit I didn\'t work hard enough to win! You earned the Marsh Badge!', [new GymBadgeRequirement(BadgeEnums.Rainbow)]);
+], BadgeEnums.Marsh, 2500, '我感到震惊！ 但亏就是亏。 我承认我不够努力去赢！ 你赢得了金色徽章！', [new GymBadgeRequirement(BadgeEnums.Rainbow)]);
 gymList['Fuchsia City'] = new Gym('Koga', 'Fuchsia City', [
     new GymPokemon('Venonat', 30780, 44),
     new GymPokemon('Venonat', 32460, 46),
     new GymPokemon('Venonat', 36540, 48),
     new GymPokemon('Venomoth', 37430, 50),
-], BadgeEnums.Soul, 3500, 'Humph! You have proven your worth! Here! Take the Soul Badge!', [
+], BadgeEnums.Soul, 3500, '哼! 你已经证明了自己的价值！ 这里！ 获得粉红徽章！', [
     new OneFromManyRequirement([
         new RouteKillRequirement(10, GameConstants.Region.kanto, 18),
         new RouteKillRequirement(10, GameConstants.Region.kanto, 15),
@@ -30634,14 +30634,14 @@ gymList['Cinnabar Island'] = new Gym('Blaine', 'Cinnabar Island', [
     new GymPokemon('Ninetales', 37430, 48),
     new GymPokemon('Rapidash', 45230, 50),
     new GymPokemon('Arcanine', 50290, 54),
-], BadgeEnums.Volcano, 5000, 'I\'ve burnt out! You have earned the Volcano Badge!', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion'))]);
+], BadgeEnums.Volcano, 5000, '我输了！ 您已获得深红徽章！', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Pokemon Mansion'))]);
 gymList['Viridian City'] = new Gym('Giovanni', 'Viridian City', [
     new GymPokemon('Dugtrio', 45230, 50),
     new GymPokemon('Persian', 47530, 53),
     new GymPokemon('Nidoqueen', 48740, 53),
     new GymPokemon('Nidoking', 48350, 55),
     new GymPokemon('Rhydon', 55000, 55),
-], BadgeEnums.Earth, 6000, 'Ha! That was a truly intense fight! You have won! As proof, here is the Earth Badge!', [
+], BadgeEnums.Earth, 6000, '哈！ 那是一场真正的激烈战斗！ 你赢了！ 作为证据，这里是绿色徽章！', [
     new GymBadgeRequirement(BadgeEnums.Volcano),
     new GymBadgeRequirement(BadgeEnums.Marsh),
     new GymBadgeRequirement(BadgeEnums.Thunder),
@@ -30653,69 +30653,69 @@ gymList['Elite Lorelei'] = new Gym('Lorelei', 'Elite Lorelei', [
     new GymPokemon('Slowbro', 52000, 54),
     new GymPokemon('Jynx', 57000, 56),
     new GymPokemon('Lapras', 60250, 56),
-], BadgeEnums.Elite_Lorelei, 7500, 'You\'re better than I thought! Go on ahead! You only got a taste of Pokémon League power!', [new GymBadgeRequirement(BadgeEnums.Earth)]);
+], BadgeEnums.Elite_Lorelei, 7500, '你比我想象的要好！ 继续前进！ 你只尝到了宝可梦联盟的力量！', [new GymBadgeRequirement(BadgeEnums.Earth)]);
 gymList['Elite Bruno'] = new Gym('Bruno', 'Elite Bruno', [
     new GymPokemon('Onix', 45330, 53),
     new GymPokemon('Hitmonchan', 48300, 55),
     new GymPokemon('Hitmonlee', 52000, 55),
     new GymPokemon('Onix', 57000, 56),
     new GymPokemon('Machamp', 60250, 58),
-], BadgeEnums.Elite_Bruno, 7500, 'My job is done! Go face your next challenge!', [new GymBadgeRequirement(BadgeEnums.Elite_Lorelei)]);
+], BadgeEnums.Elite_Bruno, 7500, '我的工作完成了！ 去迎接你的下一个挑战吧！', [new GymBadgeRequirement(BadgeEnums.Elite_Lorelei)]);
 gymList['Elite Agatha'] = new Gym('Agatha', 'Elite Agatha', [
     new GymPokemon('Gengar', 45330, 56),
     new GymPokemon('Golbat', 48300, 56),
     new GymPokemon('Haunter', 52000, 55),
     new GymPokemon('Arbok', 57000, 58),
     new GymPokemon('Gengar', 60250, 60),
-], BadgeEnums.Elite_Agatha, 7500, 'You win! I see what the old duff sees in you now. I\'ve nothing else to say. Run along now, child!', [new GymBadgeRequirement(BadgeEnums.Elite_Bruno)]);
+], BadgeEnums.Elite_Agatha, 7500, '你赢了！ 我现在看到了老达夫在你身上看到的东西。 我无话可说。 快走吧，孩子！', [new GymBadgeRequirement(BadgeEnums.Elite_Bruno)]);
 gymList['Elite Lance'] = new Gym('Lance', 'Elite Lance', [
     new GymPokemon('Gyarados', 48300, 58),
     new GymPokemon('Dragonair', 52000, 56),
     new GymPokemon('Dragonair', 57000, 56),
     new GymPokemon('Aerodactyl', 60250, 60),
     new GymPokemon('Dragonite', 66000, 62),
-], BadgeEnums.Elite_Lance, 7500, 'I still can’t believe my dragons lost to you! You’re now the Pokémon League champion! …Or, you would have been, but you have one more challenge ahead. You have to face another trainer!', [new GymBadgeRequirement(BadgeEnums.Elite_Agatha)]);
+], BadgeEnums.Elite_Lance, 7500, '我还是不敢相信我的龙输给了你！ 你现在是神奇宝贝联盟的冠军！ ......或者，你本来可以，但你还有一个挑战。 你必须面对另一个训练家！', [new GymBadgeRequirement(BadgeEnums.Elite_Agatha)]);
 //TODO make champion Gym
 //Johto Gyms
 gymList['Violet City'] = new Gym('Falkner', 'Violet City', [
     new GymPokemon('Pidgey', 108000, 7),
     new GymPokemon('Pidgeotto', 112000, 9),
-], BadgeEnums.Zephyr, 250, '...Darn! My Dad\'s cherished bird Pokémon... All right. Take this. It\'s the official Pokémon League Zephyr Badge.', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Sprout Tower'))]);
+], BadgeEnums.Zephyr, 250, '……该死！ 我爸爸珍爱的鸟宝可梦……好吧。 拿着它。 这是宝可梦联盟的飞翼徽章。', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Sprout Tower'))]);
 gymList['Azalea Town'] = new Gym('Bugsy', 'Azalea Town', [
     new GymPokemon('Metapod', 103000, 14),
     new GymPokemon('Kakuna', 101500, 14),
     new GymPokemon('Scyther', 119000, 16),
-], BadgeEnums.Hive, 500, 'Whoa, amazing! You\'re an expert on Pokémon! My research isn\'t complete yet. Ok, you win. Take this Badge.', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Slowpoke Well'))]);
+], BadgeEnums.Hive, 500, '哇，太棒了！ 您是宝可梦的专家！ 我的研究尚未完成。 好吧，你赢了。 拿着这个徽章。', [new ClearDungeonRequirement(1, GameConstants.getDungeonIndex('Slowpoke Well'))]);
 gymList['Goldenrod City'] = new Gym('Whitney', 'Goldenrod City', [
     new GymPokemon('Clefairy', 130000, 18),
     new GymPokemon('Miltank', 170000, 20),
-], BadgeEnums.Plain, 1000, '...Sniff... What? What do you want? A badge? Oh, right. I forgot. Here\'s Plain Badge.', [new RouteKillRequirement(10, GameConstants.Region.johto, 34)]);
+], BadgeEnums.Plain, 1000, '……闻……什么？ 你想要什么？ 徽章？ 啊对。 我忘了。 这是标准徽章。', [new RouteKillRequirement(10, GameConstants.Region.johto, 34)]);
 gymList['Ecruteak City'] = new Gym('Morty', 'Ecruteak City', [
     new GymPokemon('Gastly', 127000, 21),
     new GymPokemon('Haunter', 128000, 21),
     new GymPokemon('Gengar', 132000, 25),
     new GymPokemon('Haunter', 130000, 23),
-], BadgeEnums.Fog, 1500, 'I\'m not good enough yet... All right. This Badge is yours.', [new GymBadgeRequirement(BadgeEnums.Plain)]);
+], BadgeEnums.Fog, 1500, '我还不够好……好吧。 这个徽章是你的。', [new GymBadgeRequirement(BadgeEnums.Plain)]);
 gymList['Cianwood City'] = new Gym('Chuck', 'Cianwood City', [
     new GymPokemon('Primeape', 177000, 27),
     new GymPokemon('Poliwrath', 183000, 30),
-], BadgeEnums.Storm, 2500, 'Wha? Huh? I lost? How about that! You\'re worthy of Storm Badge!', [new GymBadgeRequirement(BadgeEnums.Fog)]);
+], BadgeEnums.Storm, 2500, '世界卫生大会？ 嗯？ 我输了？ 那个怎么样！ 你配得上打击徽章！', [new GymBadgeRequirement(BadgeEnums.Fog)]);
 gymList['Olivine City'] = new Gym('Jasmine', 'Olivine City', [
     new GymPokemon('Magnemite', 177000, 30),
     new GymPokemon('Magnemite', 178000, 30),
     new GymPokemon('Steelix', 182000, 35),
-], BadgeEnums.Mineral, 3500, '...You are a better trainer than me, in both skill and kindness. In accordance with League rules, I confer upon you this Badge.', [new GymBadgeRequirement(BadgeEnums.Storm)]);
+], BadgeEnums.Mineral, 3500, '......无论是技巧还是善良，你都是比我更好的训练家。 根据联盟规则，我授予你这个徽章。', [new GymBadgeRequirement(BadgeEnums.Storm)]);
 gymList['Mahogany Town'] = new Gym('Pryce', 'Mahogany Town', [
     new GymPokemon('Seel', 190000, 27),
     new GymPokemon('Dewgong', 192500, 29),
     new GymPokemon('Piloswine', 196000, 31),
-], BadgeEnums.Glacier, 4000, 'Ah, I am impressed by your prowess. With your strong will, I know you will overcome all life\'s obstacles. You are worthy of this Badge!', [new RouteKillRequirement(10, GameConstants.Region.johto, 43)]);
+], BadgeEnums.Glacier, 4000, '啊，我被你的才华所折服。 凭着你坚强的意志，我知道你会克服生活中的所有障碍。 您值得这个徽章！', [new RouteKillRequirement(10, GameConstants.Region.johto, 43)]);
 gymList['Blackthorn City'] = new Gym('Clair', 'Blackthorn City', [
     new GymPokemon('Dragonair', 205000, 37),
     new GymPokemon('Dragonair', 205000, 37),
     new GymPokemon('Dragonair', 218000, 37),
     new GymPokemon('Kingdra', 220000, 40),
-], BadgeEnums.Rising, 5000, 'Here, this is the Rising Badge... Hurry up! Take it!', [new GymBadgeRequirement(BadgeEnums.Glacier)]);
+], BadgeEnums.Rising, 5000, '在这里，这是升龙徽章……快点！ 接受！', [new GymBadgeRequirement(BadgeEnums.Glacier)]);
 //Johto Elite 4
 gymList['Elite Will'] = new Gym('Will', 'Elite Will', [
     new GymPokemon('Xatu', 245330, 40),
@@ -30723,28 +30723,28 @@ gymList['Elite Will'] = new Gym('Will', 'Elite Will', [
     new GymPokemon('Slowbro', 252000, 41),
     new GymPokemon('Jynx', 257000, 41),
     new GymPokemon('Xatu', 260250, 42),
-], BadgeEnums.Elite_Will, 7500, 'Even though I was defeated, I won\'t change my course. I will continue battling until I stand above all Trainers! Now move on and experience the true ferocity of the Elite Four.', [new GymBadgeRequirement(BadgeEnums.Rising)]);
+], BadgeEnums.Elite_Will, 7500, '就算输了，我也不会改变方向。 我会继续战斗，直到我站在所有训练师之上！ 现在继续前进，体验精英四人组的真正凶猛。', [new GymBadgeRequirement(BadgeEnums.Rising)]);
 gymList['Elite Koga'] = new Gym('Koga2', 'Elite Koga', [
     new GymPokemon('Ariados', 245330, 40),
     new GymPokemon('Venomoth', 248300, 41),
     new GymPokemon('Forretress', 252000, 43),
     new GymPokemon('Muk', 257000, 42),
     new GymPokemon('Crobat', 260250, 44),
-], BadgeEnums.Elite_Koga, 7500, 'I subjected you to everything I could muster. But my efforts failed. I must hone my skills. Go on to the next room, and put your abilities to the test!', [new GymBadgeRequirement(BadgeEnums.Elite_Will)]);
+], BadgeEnums.Elite_Koga, 7500, '我让你尽我所能。 但是我的努力失败了。 我必须磨练我的技能。 去下一个房间，测试你的能力！', [new GymBadgeRequirement(BadgeEnums.Elite_Will)]);
 gymList['Elite Bruno2'] = new Gym('Bruno2', 'Elite Bruno2', [
     new GymPokemon('Hitmontop', 245330, 42),
     new GymPokemon('Hitmonlee', 248300, 42),
     new GymPokemon('Hitmonchan', 252000, 42),
     new GymPokemon('Onix', 257000, 43),
     new GymPokemon('Machamp', 260250, 46),
-], BadgeEnums.Elite_Bruno2, 7500, 'Having lost, I have no right to say anything… Go face your next challenge!', [new GymBadgeRequirement(BadgeEnums.Elite_Koga)]);
+], BadgeEnums.Elite_Bruno2, 7500, '输了，我无权说什么……去迎接你的下一个挑战吧！', [new GymBadgeRequirement(BadgeEnums.Elite_Koga)]);
 gymList['Elite Karen'] = new Gym('Karen', 'Elite Karen', [
     new GymPokemon('Umbreon', 248300, 42),
     new GymPokemon('Vileplume', 252000, 42),
     new GymPokemon('Murkrow', 257000, 44),
     new GymPokemon('Gengar', 260250, 45),
     new GymPokemon('Houndoom', 266000, 47),
-], BadgeEnums.Elite_Karen, 7500, 'Strong Pokémon. Weak Pokémon. That is only the selfish perception of people. Truly skilled Trainers should try to win with the Pokémon they love best. I like your style. You understand what\'s important. Go on — — the Champion is waiting.', [new GymBadgeRequirement(BadgeEnums.Elite_Bruno2)]);
+], BadgeEnums.Elite_Karen, 7500, '强大的宝可梦。 弱的宝可梦。 这只是人们自私的看法。 真正熟练的训练师应该尝试用他们最喜欢的神奇宝贝赢得胜利。 我喜欢你的风格。 你明白什么是重要的。 继续——冠军在等着。', [new GymBadgeRequirement(BadgeEnums.Elite_Bruno2)]);
 gymList['Champion Lance'] = new Gym('Lance2', 'Champion Lance', [
     new GymPokemon('Gyarados', 258300, 44),
     new GymPokemon('Dragonite', 262000, 47),
@@ -30752,7 +30752,7 @@ gymList['Champion Lance'] = new Gym('Lance2', 'Champion Lance', [
     new GymPokemon('Aerodactyl', 260250, 46),
     new GymPokemon('Dragonite', 270000, 47),
     new GymPokemon('Dragonite', 270000, 50),
-], BadgeEnums.Elite_JohtoChampion, 7500, '…It\'s over. But it\'s an odd feeling. I\'m not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!', [new GymBadgeRequirement(BadgeEnums.Elite_Karen)]);
+], BadgeEnums.Elite_JohtoChampion, 7500, '…结束了。 但这是一种奇怪的感觉。 我不生气我输了。 其实我觉得很幸福。 很高兴我见证了一位伟大的新冠军的崛起！', [new GymBadgeRequirement(BadgeEnums.Elite_Karen)]);
 // Hoenn Gyms
 gymList['Rustboro City'] = new Gym('Roxanne', 'Rustboro City', [
     new GymPokemon('Geodude', 382900, 12),
@@ -31276,7 +31276,7 @@ gymList['Champion Blue'] = new Champion('Blue', 'Champion Blue', [
     new GymPokemon('Pidgeot', 52340, 59),
     new GymPokemon('Alakazam', 56320, 57),
     new GymPokemon('Rhydon', 58340, 59),
-], BadgeEnums.Elite_KantoChampion, 10000, 'Why? Why did I lose? I never made any mistakes raising my Pokémon… Darn it! You\'re the new Pokémon League Champion! Although I don\'t like to admit it…', [new GymBadgeRequirement(BadgeEnums.Elite_Lance)], 
+], BadgeEnums.Elite_KantoChampion, 10000, '为什么？ 为什么我输了？ 我在饲养宝可梦时从未犯过任何错误......该死！ 你是新的宝可梦联盟冠军！ 虽然不愿意承认……', [new GymBadgeRequirement(BadgeEnums.Elite_Lance)], 
 // Bulbasaur
 [
     new GymPokemon('Exeggutor', 57520, 59),
